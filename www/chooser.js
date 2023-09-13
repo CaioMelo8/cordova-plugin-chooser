@@ -67,7 +67,7 @@ function getFileInternal (
 
 					if (includeData) {
 						var base64Data = o.data.replace(
-							/[^A-Za-z0-9\+\/]/g,
+							/[^A-Za-z0-9\+\/=]/g,
 							''
 						);
 

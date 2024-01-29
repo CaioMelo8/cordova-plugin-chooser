@@ -24,7 +24,6 @@
 
 	<platform name="ios">
 		<source-file src="src/ios/Chooser.swift" />
-		<dependency id="cordova-plugin-add-swift-support" version="*" />
 
 		<config-file target="config.xml" parent="/*">
 			<feature name="Chooser">
